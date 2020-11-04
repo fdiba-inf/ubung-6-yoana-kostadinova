@@ -23,12 +23,12 @@ public class Palindrome {
 
             if (reversedNumber == number)
         {
-            System.out.println ("Number is palindrome " + p);
+            System.out.println ("Palindrome: " + p);
         }
 
         else {
             p = false;
-            System.out.println ("Number is palindrome " + p);
+            System.out.println ("Palindrome: " + p);
         }
     }
 }
