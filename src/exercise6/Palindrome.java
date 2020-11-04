@@ -14,6 +14,7 @@ public class Palindrome {
 
         int reversedNumber = 0;
         int number2 = number;
+        boolean p = true;
 
             while (number2 > 0) {
                 reversedNumber = (reversedNumber * 10) + (number2 % 10);
@@ -22,11 +23,12 @@ public class Palindrome {
 
             if (reversedNumber == number)
         {
-            System.out.println ("Number is palindrome");
+            System.out.println ("Number is palindrome" + p);
         }
 
         else {
-            System.out.println ("Number is NOT palindrome");
+            p = false;
+            System.out.println ("Number is NOT palindrome" + p);
         }
     }
 }
